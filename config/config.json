@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ticker-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ticker/TickerWebPart.js",
+          "manifest": "./src/webparts/ticker/TickerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TickerWebPartStrings": "lib/webparts/ticker/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
