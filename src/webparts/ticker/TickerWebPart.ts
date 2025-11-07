@@ -13,7 +13,7 @@ import {
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base"; 
 
 import Ticker from "./components/Ticker";
-// import { ITickerProps } from "./components/ITickerProps";
+// import { ITickerProps } from "./components/ITickerProps for get all props";
 
 export interface ITickerWebPartProps {
   tickerCount: number;
@@ -27,7 +27,7 @@ export interface ITickerWebPartProps {
   tickersTextSize: string;
   tickersTextColor: string;
   tickersBGColor: string;
-  animationSpeed: string;
+  animationSpeed: string; 
 }
 
 export default class TickerWebPart extends BaseClientSideWebPart<ITickerWebPartProps> {
